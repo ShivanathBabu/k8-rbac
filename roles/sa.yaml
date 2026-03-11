@@ -33,9 +33,9 @@ metadata:
   labels:
     purpose: sa
 spec:
-  serviceAccount: roboshop-mysql-secret-reader
+  serviceAccountName: roboshop-mysql-secret-reader
   containers:
   - name: awscli
     image: amazon/aws-cli
-    command: ["sleep 100000"]
+    command: ["sleep", "100000"]
   
