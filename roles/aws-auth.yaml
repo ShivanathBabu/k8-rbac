@@ -8,7 +8,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-      - roboshop-traine
+      - roboshop-trainee
       userarn: arn:aws:iam::139355608147:user/sai
       username: sai
 kind: ConfigMap
