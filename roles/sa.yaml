@@ -19,7 +19,7 @@ subjects:
 # You can specify more than one "subject"
 - kind: ServiceAccount
   name: roboshop-mysql-secret-reader # "name" is case sensitive
-  apiGroup: rbac.authorization.k8s.io
+  namespace: roboshop
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
   kind: Role #this must be Role or ClusterRole
@@ -32,10 +32,10 @@ metadata:
   name: aws-cli 
   labels:
     purpose: sa
-  spec:
-    ServiceAccount: roboshop-mysql-secret-reader
-    containers:
-    - name: awscli
-      image: amazon/aws-cli
-      command: "sleep 100000"
+spec:
+  ServiceAccount: roboshop-mysql-secret-reader
+  containers:
+  - name: awscli
+    image: amazon/aws-cli
+    command: ["sleep 100000"]
   
