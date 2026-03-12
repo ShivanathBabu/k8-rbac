@@ -13,8 +13,9 @@ data:
       username: sai
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2026-03-11T13:33:18Z"
+  creationTimestamp: "2026-03-12T04:06:42Z"
   name: aws-auth
   namespace: kube-system
-  uid: 78d2aa8f-a741-4bc6-ad51-daefc87a08a2
+  uid: 7cff7aea-3258-4c62-8b11-5ead3a8c3ce4
+
 
