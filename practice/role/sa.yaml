@@ -17,7 +17,7 @@ metadata:
   namespace: roboshop
 subjects:
 # You can specify more than one "subject"
-- kind: User
+- kind: ServiceAccount
   name: roboshop-mysql-secret-reader # "name" is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
