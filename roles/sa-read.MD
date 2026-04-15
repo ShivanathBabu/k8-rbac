@@ -1,4 +1,4 @@
-REGION_CODE=us-east-1 CLUSTER_NAME=ridiculous-badger-1773287696 ACC_ID=139355608147
+REGION_CODE=us-east-1 CLUSTER_NAME=extravagant-monster-1773674395 ACC_ID=139355608147
 ### OIDC PROVIDER
 eksctl utils associate-iam-oidc-provider \
     --region $REGION_CODE \
