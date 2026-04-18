@@ -33,7 +33,7 @@ metadata:
   labels:
     purpose: sa
 spec:
-  ServiceAccount:
+  ServiceAccount: roboshop-mysql-secret-reader
   containers:
   - name: aws-cli
     image: amazon/aws-cli
