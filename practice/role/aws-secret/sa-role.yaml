@@ -33,6 +33,7 @@ metadata:
   labels:
     purpose: sa
 spec:
+  ServiceAccount:
   containers:
   - name: aws-cli
     image: amazon/aws-cli
