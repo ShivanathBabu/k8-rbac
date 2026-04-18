@@ -10,7 +10,7 @@ data:
     - groups:
       - system:masters
       userarn: arn:aws:iam::139355608147:user/shivanath
-      username: admin
+      username: shivanath
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-04-18T08:12:39Z"
