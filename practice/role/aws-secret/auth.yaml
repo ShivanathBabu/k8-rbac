@@ -9,7 +9,7 @@ data:
   mapUsers: |
     - groups:
       - system:masters
-      userarn: arn:aws:iam::111122223333:user/admin
+      userarn: arn:aws:iam::139355608147:user/shivanath
       username: admin
 kind: ConfigMap
 metadata:
